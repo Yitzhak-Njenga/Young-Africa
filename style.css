@@ -5,8 +5,70 @@ body{
 }
 #header{
     background-color:#71D5EB;
-    width:auto;
+    width: 80%;
     height: 160px;
-    position: absolute;
+    margin-left: 10%;
+    
 
+}
+#nav{
+    background-color: #82d6db;
+    width: 80%;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 10%;
+    border-top: 1px solid white;
+    padding:0;
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+#content{
+    background-color: #c4c4c4;
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+
+}
+#footer{
+     background-color:#82d6db; ;
+     height: 200px;
+     width: 80%;
+     margin-left: 10%;
+     
+}
+
+ul{
+    display:flex;
+    justify-content: space-around;
+   
+
+}
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    border-bottom: 5px solid #c4c4c4;
+}
+a:hover{
+    border-bottom: 5px solid white;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    opacity: 1;
+    
+}
+#content1{
+    width: 280px;
+    height: 390px;
+    margin: 20px;
+    text-align: center;
+    background-image: url("3.png");
+    background-blend-mode: soft-light;
 }
