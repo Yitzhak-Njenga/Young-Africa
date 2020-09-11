@@ -56,6 +56,9 @@ a{
 a:hover{
     border-bottom: 5px solid white;
 }
+a:active{
+    background-color: darkcyan;
+}
    
     
     
@@ -150,7 +153,8 @@ input[type=submit] {
   }
   
   input[type=submit]:hover {
-    background-color: #2b332b;
+    background-color: #c4c4c4;
+    color: cyan;
   }
   
 
